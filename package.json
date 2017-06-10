@@ -1,0 +1,19 @@
+{
+  "name": "starwars_universe",
+  "version": "1.0.0",
+  "description": "A random data generator based on all things Star Wars! Heavily inspired by Faker on npm.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rnice01/starwars_universe.git"
+  },
+  "author": "Rob Nice",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rnice01/starwars_universe/issues"
+  },
+  "homepage": "https://github.com/rnice01/starwars_universe#readme"
+}
