@@ -7,5 +7,8 @@ module.exports = {
 		var prefixes = wookie_names.prefixes;
   		var suffixes = wookie_names.suffixes;
   		return prefixes[getRandomInt(prefixes.length)] + suffixes[getRandomInt(suffixes.length)];
-  	}
+  	},
+  	Human() {
+
+  	},
 }
