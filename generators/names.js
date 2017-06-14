@@ -9,8 +9,14 @@ module.exports = {
   		var suffixes = wookie_names.suffixes;
   		return prefixes[getRandomInt(prefixes.length)] + suffixes[getRandomInt(suffixes.length)];
   	},
+	/* Randomly select between returning a human male name and human female name */
   	Human() {
-  		var random_name = [];
+  		var dice_roll = getRandomInt(10);
+        if (dice_roll % 2 === 0) {
+            return HumanMale();
+        } else {
+            return HumanFemale();
+        }
   	},
   	HumanMale() {
   		var first_names = human_names.male_first_names;
