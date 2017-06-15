@@ -1,6 +1,6 @@
 Star Wars Universe
 ==================
-A random data generator for all things Star Wars, this module was heavily inspired by Faker.
+A random data generator for all things Star Wars, this module was heavily inspired by Faker https://github.com/marak/Faker.js/.
 -------------------------------------------------------------------------------------------
 
 
