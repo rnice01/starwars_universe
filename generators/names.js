@@ -13,9 +13,9 @@ module.exports = {
   	Human() {
   		var dice_roll = getRandomInt(10);
         if (dice_roll % 2 === 0) {
-            return HumanMale();
+            return this.HumanMale();
         } else {
-            return HumanFemale();
+            return this.HumanFemale();
         }
   	},
   	HumanMale() {
