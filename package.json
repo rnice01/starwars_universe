@@ -4,7 +4,7 @@
   "description": "A random data generator based on all things Star Wars! Heavily inspired by Faker on npm.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha /tests"
+    "test": "mocha tests"
   },
   "repository": {
     "type": "git",
